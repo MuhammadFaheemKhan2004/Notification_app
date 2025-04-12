@@ -15,6 +15,7 @@ class MainActivity2 : AppCompatActivity() {
         enableEdgeToEdge()
         binding=ActivityMain2Binding.inflate(layoutInflater)
         setContentView(binding.root)
+
         binding.textView.setText(intent.getStringExtra("DATA_REC"))
 
     }
